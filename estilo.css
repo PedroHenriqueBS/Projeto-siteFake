@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navegacao{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+
+.logo {
+    padding: 10px;
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+    color: #160C86;
+
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    
+}
+
+.menu{
+    padding: 10px;
+    flex: 60%;
+    text-align: right;
+    margin-right: 10%;
+    
+    
+}
+
+.menu a{
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: #09005D;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.lado1 {
+    flex:40%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.lado1 h3 {
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    color: #160C86;
+    letter-spacing: 10px;
+    
+}
+
+.lado1 h2 {
+    margin: 0 0;
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    color: #160C86;
+}
+
+.btn {
+    background-color: #FF7568;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.lado1 p {
+    margin-bottom: 30px;
+    text-align: justify;
+    letter-spacing: 0px;
+}
+
+.lado2 {
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.artigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.artigo h2 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color: #160C86;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+
+.card1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #FE756A;
+    border-radius: 5px;
+}
+
+
+.card2 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #FE756A;
+    border-radius: 5px;
+}
+
+.card3 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #FE756A;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: linear-gradient(to bottom, #474AF1, #14097F);
+    border-top: 5px solid #FF7568;
+    padding: 30px;
+}
+
