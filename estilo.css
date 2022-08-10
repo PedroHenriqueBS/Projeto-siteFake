@@ -15,7 +15,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 150px;
-    
+    position: fixed;
+    width: 100%;
+    background: white;
 }
 
 .logo {
@@ -48,6 +50,26 @@ body {
     margin: 20px;
     text-decoration: none;
     color: #09005D;
+    
+}
+
+.menu a:hover {
+    border-top: 2px solid #FF7568;
+    
+}
+
+.bt {
+    background: #4245E8; 
+    padding: 15px; 
+    border-radius: 5px; 
+    color: white;
+    transition: 0.3s;
+}
+
+.bt:hover {
+    background-color: #09005D;
+    padding: 20px;
+    
 }
 
 section {
@@ -55,6 +77,7 @@ section {
     justify-content: center;
     align-items: center;
     height: 600px;
+    padding-top: 150px;
 }
 
 .lado1 {
@@ -86,7 +109,13 @@ section {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
+    transition: 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
 
+.btn:hover {
+    background-color: #bb4c42;
+    padding: 15px;
 }
 
 .lado1 p {
@@ -116,6 +145,18 @@ section {
     color: #160C86;
 }
 
+.oculto1 {
+    display: none;
+}
+
+.oculto2 {
+    display: none;
+}
+
+.oculto3 {
+    display: none;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -133,6 +174,28 @@ section {
     margin: 20px;
     border: 2px solid #FE756A;
     border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.card1:hover {
+    background-color: #bb4c42;
+    color: white;
+    padding: 25px;
+    margin-bottom: 0;
+    
+}
+
+.card1:hover img{
+    display: none;
+}
+
+.card1:hover .card-text{
+    display: none;
+}
+
+.card1:hover .oculto1{
+    display: block;
 }
 
 
@@ -142,6 +205,28 @@ section {
     margin: 20px;
     border: 2px solid #FE756A;
     border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.card2:hover {
+    background-color: #bb4c42;
+    color: white;
+    padding: 25px;
+    margin-bottom: 0;
+    
+}
+
+.card2:hover img{
+    display: none;
+}
+
+.card2:hover .card-text2{
+    display: none;
+}
+
+.card2:hover .oculto2{
+    display: block;
 }
 
 .card3 {
@@ -150,16 +235,60 @@ section {
     margin: 20px;
     border: 2px solid #FE756A;
     border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
+
+.card3:hover {
+    background-color: #bb4c42;
+    color: white;
+    padding: 25px;
+    margin-bottom: 0;
+    
+}
+
+.card3:hover img{
+    display: none;
+}
+
+.card3:hover .card-text3{
+    display: none;
+}
+
+.card3:hover .oculto3{
+    display: block;
+}
+
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    height: 300px;
     color: white;
     background-image: linear-gradient(to bottom, #474AF1, #14097F);
     border-top: 5px solid #FF7568;
     padding: 30px;
+}
+
+.logo-f {
+    text-align: center;
+}
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    transition: 0.2s;
+}
+
+.whats:hover {
+    width: 80px;
 }
 
