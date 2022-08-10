@@ -83,7 +83,7 @@ section {
 .lado1 {
     flex:40%;
     margin-left: 10%;
-    text-align: left;
+    
 }
 
 .lado1 h3 {
@@ -181,9 +181,8 @@ section {
 .card1:hover {
     background-color: #bb4c42;
     color: white;
-    padding: 25px;
-    margin-bottom: 0;
-    
+    padding: 30px;
+    margin-bottom: 0px;
 }
 
 .card1:hover img{
@@ -212,9 +211,8 @@ section {
 .card2:hover {
     background-color: #bb4c42;
     color: white;
-    padding: 25px;
-    margin-bottom: 0;
-    
+    padding: 30px;
+    margin-bottom: 0px;
 }
 
 .card2:hover img{
@@ -242,9 +240,8 @@ section {
 .card3:hover {
     background-color: #bb4c42;
     color: white;
-    padding: 25px;
-    margin-bottom: 0;
-    
+    padding: 30px;
+    margin-bottom: 0px;
 }
 
 .card3:hover img{

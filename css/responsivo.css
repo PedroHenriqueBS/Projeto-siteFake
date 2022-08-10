@@ -1,0 +1,49 @@
+@media screen and (max-width:1000px){
+    .navegacao {
+        position: relative;
+        height: 200px;
+        text-align: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 0;
+    }
+
+    section {
+        padding-top: 0px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .lado1 {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .lado2 {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .whats {
+        display: none;
+    }
+
+    .artigo h2 {
+        text-align: center;
+        margin: 5%;
+    }
+
+    .cards {
+        display: inline-block;
+    }
+
+    
+}
